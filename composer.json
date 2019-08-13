@@ -1,0 +1,16 @@
+{
+    "name": "OpenMageModuleFostering/Codewix_IpBasedDevMode",
+    "type": "magento-module",
+    "license": "OSL-v3.0",
+    "homepage": "",
+    "description": "This extension will allow to enable printing of exception errors for specific IP address.",
+    "authors": [
+    {
+        "name": "Codewix",
+        "email": "codewix@gmail.com"
+    }
+],
+    "suggest": {
+        "magento-hackathon/magento-composer-installer": "*"
+    }
+}
