@@ -1,18 +1,18 @@
 <?xml version="1.0"?>
 <package>
     <name>Codewix_IpBasedDevMode</name>
-    <version>0.1.0</version>
+    <version>0.1.1</version>
     <stability>stable</stability>
     <license uri="http://opensource.org/licenses/osl-3.0.php">OSL v3.0</license>
     <channel>community</channel>
     <extends/>
     <summary>This extension will allow to enable printing of exception errors for specific IP address.</summary>
     <description>This extension will be very useful for developers as it will will enable printing exception error only for specific IP address. So a developer can enable developer mode from admin and print errors on frontend only for his IP address.</description>
-    <notes>Initial Release</notes>
+    <notes>Added feature to enable dev mode by adding query string to current url.</notes>
     <authors><author><name>Codewix</name><user>Ravinder</user><email>codewix@gmail.com</email></author></authors>
-    <date>2014-06-15</date>
-    <time>01:44:15</time>
-    <contents><target name="magecommunity"><dir name="Codewix"><dir name="IpbasedDevmode"><dir name="Helper"><file name="Data.php" hash="cdf1832b44b33c9bb4df3af99c1af839"/></dir><dir name="Model"><file name="Observer.php" hash="e809f652743b7183e700345441cd5989"/></dir><dir name="etc"><file name="config.xml" hash="cafbcb1e0a7040045c6b21bc190adcd2"/><file name="system.xml" hash="3b77a5c75556276d453f6b85095190ec"/></dir></dir></dir></target><target name="mageetc"><dir name="modules"><file name="Codewix_IpbasedDevmode.xml" hash="9bd1d8f17e99f76186e6c15f66fe13e3"/></dir></target></contents>
+    <date>2014-06-29</date>
+    <time>14:29:51</time>
+    <contents><target name="magecommunity"><dir name="Codewix"><dir name="IpbasedDevmode"><dir name="Helper"><file name="Data.php" hash="cdf1832b44b33c9bb4df3af99c1af839"/></dir><dir name="Model"><file name="Observer.php" hash="67a11373f36d7a6562e3d4a784db6f6f"/></dir><dir name="etc"><file name="config.xml" hash="cafbcb1e0a7040045c6b21bc190adcd2"/><file name="system.xml" hash="46e55943cd6608ee8febb4fd69fba4bb"/></dir></dir></dir></target><target name="mageetc"><dir name="modules"><file name="Codewix_IpbasedDevmode.xml" hash="9bd1d8f17e99f76186e6c15f66fe13e3"/></dir></target></contents>
     <compatible/>
     <dependencies><required><php><min>5.0.2</min><max>6.0.0</max></php></required></dependencies>
 </package>
